@@ -8,7 +8,7 @@ This project collects temperature and humidity, outputs to LCD, if temperature o
 - Buzzer
 
 ## Connections diagram
-![GGreg20_V3 Simulator](https://github.com/phidai16/Hello/blob/0d4c69d6e36a2a219f473ef143d6b299bfee6166/Connection%20diagram.png)
+![image](https://github.com/PDrole/Arduino/assets/135306841/cae3e552-a5c8-492d-bb1d-68eea318222f)
 
 The image above corresponds to the code below:
 #### CODE in diagram.json:
@@ -34,7 +34,7 @@ Connected array consisting of 4 elements:
     * "h" followed by a number of pixels: move horizontally (left/right)
 
 ## Running Projects
-![GGreg20_V3 Simulator](https://github.com/phidai16/Hello/blob/530ab2431d07e0976962274fa44852ebf0309395/Run.png)
+![image](https://github.com/PDrole/Arduino/assets/135306841/d19ddd48-cca8-4d94-bb7e-16077a5f7c5c)
 ## Special characters in LCD
 The LCD20x4 uses the Hitachi HD44780 LCD Controller chip. The chip comes with a built-in font, as well as the ability to define up to 8 (0-7) custom characters.
 
@@ -71,8 +71,8 @@ void setup() {
 }
 ```
 byte dauGach[] means "|" because each square on LCD screen corresponds to 1 byte, in each square there will be 40 pixels of 5 columns and 8 rows, each row corresponds to 1 Bit (1 on, 0 off). Therefore, I will define B00100 in each row to form the "|" character, see illustration below.
-![GGreg20_V3 Simulator](https://github.com/phidai16/Hello/blob/b1f67b2a86c7f56172a9067fe1c69d3fc7581dcc/Special%20characters.png)
+![image](https://github.com/PDrole/Arduino/assets/135306841/86137e6a-df87-4cd0-abc1-9597b8c0d46f)
 
 If you find it difficult to define, you can visit the website https://maxpromer.github.io/LCD-Character-Creator/ to customize the desired character.
 ## Link Projects
-https://wokwi.com/projects/367863080217056257
+https://wokwi.com/projects/369596305046237185
