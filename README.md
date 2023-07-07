@@ -71,6 +71,7 @@ void setup() {
 }
 ```
 byte dauGach[] means "|" because each square on LCD screen corresponds to 1 byte, in each square there will be 40 pixels of 5 columns and 8 rows, each row corresponds to 1 Bit (1 on, 0 off). Therefore, I will define B00100 in each row to form the "|" character, see illustration below.
+
 ![image](https://github.com/PDrole/Arduino/assets/135306841/86137e6a-df87-4cd0-abc1-9597b8c0d46f)
 
 If you find it difficult to define, you can visit the website https://maxpromer.github.io/LCD-Character-Creator/ to customize the desired character.
